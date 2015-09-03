@@ -1,0 +1,7 @@
+checksumupdate=0
+update_pkgver=""
+pwd=$PWD
+cd $SRCDEST/$pkgname
+bzr pull
+update_pkgver=$(bzr revno)
+cd $pwd

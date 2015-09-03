@@ -16,7 +16,7 @@ sha256sums=('SKIP')
 
 pkgver() {
   cd "${pkgname}"
-  bzr tags | sort -n -k3 | awk -v REV="$(bzr revno)" 'END{ printf("%s.r%s\n", $2, REV-$3) }'
+  bzr revno
 }
 
 build() {
