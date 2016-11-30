@@ -1,7 +1,7 @@
 # Maintainer: Florian Walch <florian+aur@fwalch.com>
 
 pkgname=libtermkey-bzr
-pkgver=361
+pkgver=363
 pkgrel=1
 pkgdesc='Library for easy processing of keyboard entry from terminal-based programs.'
 arch=('i686' 'x86_64')
